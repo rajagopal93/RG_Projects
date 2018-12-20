@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18450" started-at="2018-12-20T17:57:36Z" finished-at="2018-12-20T17:57:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18450" started-at="2018-12-20T17:57:36Z" finished-at="2018-12-20T17:57:55Z">
+      <class name="TestNGPack.Launchclass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNGPack.Launchclass@5b275dab]" name="beforeClass" is-config="true" duration-ms="4893" started-at="2018-12-20T17:57:36Z" finished-at="2018-12-20T17:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:TestNGPack.Launchclass@5b275dab]" name="launchurl" duration-ms="11182" started-at="2018-12-20T17:57:41Z" finished-at="2018-12-20T17:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNGPack.Launchclass@5b275dab]" name="afterClass" is-config="true" duration-ms="2349" started-at="2018-12-20T17:57:53Z" finished-at="2018-12-20T17:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNGPack.Launchclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
