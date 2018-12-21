@@ -20,9 +20,9 @@ public class Screenshot {
 		driver.get("https://www.bankbazaar.com");
 		driver.findElementByLinkText("Login").click();
 		
-		File Srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		File Srcefile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File Destfile = new File("./Snapshot/photo"+".jpeg");
-		FileUtils.copyFile(Srcfile, Destfile);
+		FileUtils.copyFile(Srcefile, Destfile);
 
 	}
 
